@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripWay</title>
+</head>
+
+<body>
+    <header>
+        <h1>Contato / Reserva</h1>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="pacotes.html">Pacotes</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Faça sua reserva</h2>
+            <p>Preencha o formulário e entraremos em contato.</p>
+
+            <img src="../images/banner.jpeg" alt="Banner do TripWay">
+
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="destino">Destino de interesse:</label>
+                <select id="destino" name="destino">
+                    <option value="">Selecione...</option>
+                    <option value="praia">Praia</option>
+                    <option value="montanha">Roça</option>
+                    <option value="cidade">Cidade</option>
+                </select>
+
+                <label for="data">Data da viagem:</label>
+                <input type="date" id="data" name="data">
+
+                <label for="pessoas">Quantidade de pessoas:</label>
+                <input type="number" id="pessoas" name="pessoas" min="1">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+    </main>
+    <footer> &copy; 2026 TripWay</footer>
+</body>
+</html>
